@@ -1,0 +1,258 @@
+.mainContainers {
+  height: 100vh;
+  width: 100%;
+}
+.topNav {
+  position: relative;
+  background-color: white;
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.topNav button {
+  border-radius: 30px;
+  height: 7%;
+  border: none;
+  background-color: white;
+  color: rgb(11, 3, 77);
+  font-size: 20px;
+  margin-left: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 90%;
+} 
+.topNav button:hover {
+  color: rgb(47, 7, 226);
+  cursor: pointer;
+}
+  
+.form input{
+  height: 60px;
+  width: 300px;
+  margin-top: 9px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 3px solid rgb(11, 3, 77);
+} 
+.form button{
+  height: 60px;
+  width: 300px;
+  font-size: larger;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(2, 2, 24);
+}
+.form button:hover{
+  background-color: rgb(1, 1, 95);
+}
+.realtyHub{
+  margin-top: 80px;
+  font-size: 40px;
+  font-style: italic;
+  color: rgb(1, 1, 95);
+  margin-right: 40%;
+}
+.welcomeText{
+  color: rgb(248, 248, 248);
+  
+    font-size: 70px;
+  
+}
+.welcome{
+  color: rgb(248, 245, 245);
+    font-size: 50px;
+}
+.welcome {
+  animation:  welcome 10s forwards;
+  transform:translateX(-100%);
+}
+@keyframes welcome {
+  to {
+    transform:translateX(0);
+  }
+}
+
+.imgContainer {
+  background-image: url("C:\Users\ADMIN\Desktop\RealtyHub\realtyhub\src\assets\image\bg.jpg");
+  background-size: 100% 70%;
+  background-position: 20% 20%;
+  background-repeat: no-repeat;
+  height: calc(100vh - 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  
+} 
+.form{
+  background-color: white;
+  border-radius: 10px;
+  width: 450px;
+  height: 600px;
+  margin-top: 200px;
+  margin-right: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.house{
+  border-radius: 30px;
+  width: 25%;
+  height: 10%;
+} 
+.formContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.formContent {
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  max-width: 90%;
+  margin-bottom: 150px;
+}
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+.why{
+  color: rgb(1, 1, 95);
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.whyText{
+  display: flex;
+  font-size: large;
+  font-style: initial;
+  height: 30%;
+  column-gap: 10%;
+  padding-left: 15%;
+
+} 
+.bottomNav{
+  height: 40%;
+  display: flex;
+  column-gap: 10%;
+  padding-left: 15%;
+  font-style: initial;
+  background-color: rgb(1, 1, 95);
+  color: #f1f1f1;
+  font-size: 120%;
+
+}
+.Info, .About, .ContactUs{
+  text-align: start;
+  
+  
+}
+
+.dropdown {
+  width: 180px;
+  height: 220px;
+}
+
+.imgContainer div img{
+  height: 75px;
+  border: 5px solid white;
+  
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+} 
+.imgContainer div{
+  display: flex;
+} 
+ .imgContainer div img:hover{
+  cursor: pointer;
+}
+.imgContainer div input{
+  color: rgb(0, 0, 0);
+  height: 80px;
+  border: 1px solid white;
+  width: 900px;
+  font-size: 20px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  margin-bottom: 20%;
+}
+.imgContainer .content {
+  margin: auto;
+  color: white;
+  text-align: center;
+  margin-bottom: 19%;
+}
+.searchBox {
+  margin-bottom: 20px;
+}
+
+
+.searchBox input {
+  height: 30px;
+  width: 400px;
+  padding: 5px;
+  margin-right: 10px;
+  
+} 
+.searchBox button {
+  height: 30px;
+  width: 50px;
+  padding: 5px 20px;
+  border: none;
+  background-color: rgb(63, 63, 247);
+  color: white;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.gridItem {
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+}
+.f{
+  display: flex;
+  justify-content: center;
+}
+
+.f div{
+  height: 300px;
+  width: 370px;
+  background-color: silver;
+  border-radius: 30px;
+  margin-bottom: 1cm;
+  margin-left: 1cm;
+}
+
+.s{
+  display: flex;
+  justify-content: center;
+}
+
+.s div{
+  height: 300px;
+  width: 370px;
+  background-color:silver;
+  border-radius: 30px;
+  justify-content: space-between;
+  margin-bottom: 1cm;
+  margin-left: 1cm;
+}
