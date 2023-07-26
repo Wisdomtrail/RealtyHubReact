@@ -3,11 +3,10 @@ import "../style/verificationPage.css"
 import { useNavigate } from 'react-router-dom';
 
 
+
 const VerificationPage = () => {
     const navigate = useNavigate();
-
     const handleLogin = () => {
-       
         navigate('/Dashboard');
     };
   return (
